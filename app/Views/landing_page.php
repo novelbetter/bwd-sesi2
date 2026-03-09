@@ -27,7 +27,6 @@
             font-weight: 700;
         }
 
-        /* TUGAS MAHASISWA: Perhatikan Box Model di class ini */
         .box-model-demo {
             padding: 30px; /* Jarak dari konten ke dinding kardus (dalam) */
             border: 2px solid #0d6efd; /* Dinding kardus */

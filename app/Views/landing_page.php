@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Landing page MVP untuk produk bisnis digital. Dibangun dengan Bootstrap 5 dan HTML5 Semantik untuk performa SEO maksimal.">
     
-    <title>kepul | BWD Sesi 2</title>
+    <title>KEPUL | BWD Sesi 2</title>
 
     <!-- BOOTSTRAP 5 CDN: Mengimpor "Rak Etalase Dinamis" tanpa perlu menulis CSS manual -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -47,7 +47,7 @@
     <!-- SEMANTIC TAG: <nav> memberi tahu Google bahwa ini adalah menu navigasi utama -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="#"><i class="fa-solid fa-rocket text-primary"></i> TOKO MAJU CILACAP</a>
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-rocket text-primary"></i> KEPUL</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-toggle="target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -63,8 +63,8 @@
     <!-- SEMANTIC TAG: <header> sebagai area "Hero/Papan Reklame" utama web -->
     <header class="bg-primary text-white text-center py-5">
         <div class="container py-5">
-            <h1 class="display-4">TOKO MAJU CILACAP</h1>
-            <p class="lead mt-3">PERLENGKAPAN RUMAH TANGGA & KANTOR TERLENGKAP DENGAN HARGA TERJANGKAU.</p>
+            <h1 class="display-4">KEPUL</h1>
+            <p class="lead mt-3">Antar dan jual sampah daur ulang secara mandiri di Kepul Point terdekat anda .</p>
             <a href="#produk" class="btn btn-light btn-lg mt-3 fw-bold text-primary">LIHAT SEMUA PRODUK</a>
         </div>
     </header>
@@ -75,8 +75,8 @@
         <!-- SEMANTIC TAG: <section> membagi area web menjadi bagian-bagian logis -->
         <section id="produk" class="container my-5 py-4">
             <div class="text-center mb-5">
-                <h2>Produk Unggulan Kami</h2>
-                <p class="text-muted">Perlengkapan Rumah Tangga & Kantor Terpercaya Di Cilacap, Tampilan Rapi di Semua Perangkat</p>
+                <h2>Jual Sampah</h2>
+                <p class="text-muted">Jual sampah daur ulang (non-B3), daftarkan sampah anda dan dapatkan uang tunai dan jaga lingkungan.</p>
             </div>
 
             <!-- BOOTSTRAP GRID (Baris) -->
@@ -89,24 +89,24 @@
                 <article class="col-12 col-md-4">
                     <div class="box-model-demo h-100 text-center">
                         <i class="fa-solid fa-magnifying-glass-chart fa-3x text-primary mb-3"></i>
-                        <h3>Peralatan Masak</h3>
-                        <p class="text-muted">Panci anti lengket, wajan tebal, dan alat makan keramik berkualitas tinggi - cocok untuk kebutuhan dapur kamu!</p>
+                        <h3>Sedekah Sampah</h3>
+                        <p class="text-muted">Donasikan sampah daur ulang untuk sosial, sumbangkan sampah anda untuk program amal yang terpercaya.</p>
                     </div>
                 </article>
 
                 <article class="col-12 col-md-4">
                     <div class="box-model-demo h-100 text-center">
                         <i class="fa-solid fa-mobile-screen-button fa-3x text-primary mb-3"></i>
-                        <h3>Alat Tulis Kantor</h3>
-                        <p class="text-muted">Pensil mekanik, Pulpen, Buku Catatan - bantu kerja dan belajar jadi lebih efektif!</p>
+                        <h3>Kepul Point</h3>
+                        <p class="text-muted">Antar dan jual sampah daur ulang secara mandiri di Kepul Point terdekat anda.</p>
                     </div>
                 </article>
 
                 <article class="col-12 col-md-4">
                     <div class="box-model-demo h-100 text-center">
                         <i class="fa-solid fa-shield-halved fa-3x text-primary mb-3"></i>
-                        <h3>Elektronik Kecil</h3>
-                        <p class="text-muted">Lampu LED hemat energi, Charger, Dan kipas angin - solusi praktis untuk kebutuhan rumah!</p>
+                        <h3>Sembako Sampah</h3>
+                        <p class="text-muted">Membantu masyarakat mendapatkan berbagai kebutuhan dengan harga lebih murah dengan potongan harga jual sampah daur ulang.</p>
                     </div>
                 </article>
 
@@ -119,7 +119,7 @@
                 <div class="row justify-content-center">
                     <div class="col-12 col-lg-6">
                         <div class="text-center mb-4">
-                            <h2>Kontak Toko Maju Cilacap</h2>
+                            <h2>Kontak Kepul</h2>
                             <p class="text-muted">Ada Pertanyaan atau ingin Pemesanan? isi formulir di bawah ini ya! </p>
                         </div>
 
@@ -129,13 +129,13 @@
                             <div class="mb-3">
                                 <label for="namaLengkap" class="form-label fw-bold">Nama Lengkap</label>
                                 <!-- INPUT TEXT BIASA -->
-                                <input type="text" class="form-control" id="namaLengkap" placeholder="Cth: Budi Santoso" required>
+                                <input type="text" class="form-control" id="namaLengkap" placeholder="Cth: Abdul Rohman" required>
                             </div>
 
                             <div class="mb-3">
                                 <label for="emailBisnis" class="form-label fw-bold">Email Bisnis</label>
                                 <!-- SECURE INPUT: type="email" memaksa user memakai format @domain.com -->
-                                <input type="email" class="form-control" id="emailBisnis" placeholder="budi@perusahaan.com" required>
+                                <input type="email" class="form-control" id="emailBisnis" placeholder="abdlrohmn@perusahaan.com" required>
                                 <div class="form-text">Kami tidak akan pernah membagikan email Anda (Anti-Spam).</div>
                             </div>
 
@@ -157,7 +157,7 @@
     <!-- SEMANTIC TAG: <footer> area penutup yang memberitahu bot ini adalah akhir dokumen -->
     <footer class="bg-dark text-light text-center py-4">
         <div class="container">
-            <p class="mb-0">&copy;Muhamad Jamali-049 2026 Cakrawala Digital Business. <strong>BWD04 - Sesi 2</strong>.</p>
+            <p class="mb-0">&copy;Abdul Rohman-051 2026 Cakrawala Digital Business. <strong>BWD04 - Sesi 2</strong>.</p>
         </div>
     </footer>
 
